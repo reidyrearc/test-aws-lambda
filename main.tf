@@ -44,4 +44,6 @@ resource "aws_lambda_function" "lambda" {
         }
     }
 
+    description = "Lamda Function for Star Wars Repo Providing a Greeting"
+
 }
